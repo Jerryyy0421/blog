@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Intro to Concrete Math</title>
+    <url>/blog//1/2025/01-concrete-math-intro/</url>
+    <content><![CDATA[<p>Beginning of my notes on studying concrete math.</p>
+<span id="more"></span>
+]]></content>
+      <categories>
+        <category>2025</category>
+      </categories>
+      <tags>
+        <tag>math</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hello Word!</title>
     <url>/blog//0/2025/00-hello-world/</url>
     <content><![CDATA[<p>A Test Post without the Header Image.</p>
@@ -268,19 +281,6 @@ href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
       </categories>
   </entry>
   <entry>
-    <title>Intro to Concrete Math</title>
-    <url>/blog//1/2025/01-concrete-math-intro/</url>
-    <content><![CDATA[<p>Beginning of my notes on studying concrete math.</p>
-<span id="more"></span>
-]]></content>
-      <categories>
-        <category>2025</category>
-      </categories>
-      <tags>
-        <tag>math</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Concrete Math Chap 1-Reconcurrent Problems</title>
     <url>/blog//2/2025/02-concrete-math-I/</url>
     <content><![CDATA[
@@ -382,10 +382,13 @@ F \left( \begin{matrix} a, b \\ c \end{matrix} \middle| z \right) =
       </tags>
   </entry>
   <entry>
-    <title>08 guiding for hexo blog</title>
-    <url>/blog//undefined/2025/08-guiding-for-hexo-blog/</url>
+    <title>concrete math VI</title>
+    <url>/blog//7/2025/07-concrete-math-VI/</url>
     <content><![CDATA[
 ]]></content>
+      <tags>
+        <tag>math</tag>
+      </tags>
   </entry>
   <entry>
     <title>Tutorial for javascript30</title>
@@ -396,13 +399,10 @@ F \left( \begin{matrix} a, b \\ c \end{matrix} \middle| z \right) =
 ]]></content>
   </entry>
   <entry>
-    <title>concrete math VI</title>
-    <url>/blog//7/2025/07-concrete-math-VI/</url>
+    <title>08 guiding for hexo blog</title>
+    <url>/blog//undefined/2025/08-guiding-for-hexo-blog/</url>
     <content><![CDATA[
 ]]></content>
-      <tags>
-        <tag>math</tag>
-      </tags>
   </entry>
   <entry>
     <title>MIT integration Bee</title>
