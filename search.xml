@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Intro to Concrete Math</title>
+    <url>/blog//2025/01-concrete-math-intro/</url>
+    <content><![CDATA[<p>Beginning of my notes on studying concrete math.</p>
+<span id="more"></span>
+]]></content>
+      <tags>
+        <tag>math</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hello Word!</title>
     <url>/blog//2025/00-hello-world/</url>
     <content><![CDATA[<p>A Test Post without the Header Image.</p>
@@ -265,10 +275,9 @@ href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 ]]></content>
   </entry>
   <entry>
-    <title>Intro to Concrete Math</title>
-    <url>/blog//2025/01-concrete-math-intro/</url>
-    <content><![CDATA[<p>Beginning of my notes on studying concrete math.</p>
-<span id="more"></span>
+    <title>Concrete Math Chap 1-Reconcurrent Problems</title>
+    <url>/blog//2025/02-concrete-math-I/</url>
+    <content><![CDATA[
 ]]></content>
       <tags>
         <tag>math</tag>
@@ -277,15 +286,6 @@ href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
   <entry>
     <title>Concrete Math Chap2</title>
     <url>/blog//2025/03-concrete-math-II/</url>
-    <content><![CDATA[
-]]></content>
-      <tags>
-        <tag>math</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Concrete Math Chap 1-Reconcurrent Problems</title>
-    <url>/blog//2025/02-concrete-math-I/</url>
     <content><![CDATA[
 ]]></content>
       <tags>
@@ -367,15 +367,6 @@ F \left( \begin{matrix} a, b \\ c \end{matrix} \middle| z \right) =
 \middle| z \right)
 \]</span> by applying Pfaff’s reflection law (5.101) twice.</p></li>
 </ol>
-]]></content>
-      <tags>
-        <tag>math</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>concrete math VI</title>
-    <url>/blog//2025/07-concrete-math-VI/</url>
-    <content><![CDATA[
 ]]></content>
       <tags>
         <tag>math</tag>
@@ -563,6 +554,15 @@ F \left( \begin{matrix} a, b \\ c \end{matrix} \middle| z \right) =
 \]</span></p></li>
 </ol>
 <h2 id="integration-bees">Integration Bees</h2>
+]]></content>
+      <tags>
+        <tag>math</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>concrete math VI</title>
+    <url>/blog//2025/07-concrete-math-VI/</url>
+    <content><![CDATA[
 ]]></content>
       <tags>
         <tag>math</tag>
