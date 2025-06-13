@@ -268,18 +268,6 @@ href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
       </categories>
   </entry>
   <entry>
-    <title>Concrete Math Chap 1-Reconcurrent Problems</title>
-    <url>/blog//2/2025/02-concrete-math-I/</url>
-    <content><![CDATA[
-]]></content>
-      <categories>
-        <category>2025</category>
-      </categories>
-      <tags>
-        <tag>math</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Intro to Concrete Math</title>
     <url>/blog//1/2025/01-concrete-math-intro/</url>
     <content><![CDATA[<p>Beginning of my notes on studying concrete math.</p>
@@ -293,26 +281,20 @@ href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
       </tags>
   </entry>
   <entry>
+    <title>Concrete Math Chap 1-Reconcurrent Problems</title>
+    <url>/blog//2/2025/02-concrete-math-I/</url>
+    <content><![CDATA[
+]]></content>
+      <categories>
+        <category>2025</category>
+      </categories>
+      <tags>
+        <tag>math</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Concrete Math Chap2</title>
     <url>/blog//3/2025/03-concrete-math-II/</url>
-    <content><![CDATA[
-]]></content>
-      <tags>
-        <tag>math</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>concrete math IV</title>
-    <url>/blog//5/2025/05-concrete-math-IV/</url>
-    <content><![CDATA[
-]]></content>
-      <tags>
-        <tag>math</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>concrete math III</title>
-    <url>/blog//4/2025/04-concrete-math-III/</url>
     <content><![CDATA[
 ]]></content>
       <tags>
@@ -376,6 +358,24 @@ F \left( \begin{matrix} a, b \\ c \end{matrix} \middle| z \right) =
 \middle| z \right)
 \]</span> by applying Pfaff’s reflection law (5.101) twice.</p></li>
 </ol>
+]]></content>
+      <tags>
+        <tag>math</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>concrete math IV</title>
+    <url>/blog//5/2025/05-concrete-math-IV/</url>
+    <content><![CDATA[
+]]></content>
+      <tags>
+        <tag>math</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>concrete math III</title>
+    <url>/blog//4/2025/04-concrete-math-III/</url>
+    <content><![CDATA[
 ]]></content>
       <tags>
         <tag>math</tag>
