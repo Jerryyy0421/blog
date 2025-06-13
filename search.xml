@@ -1,0 +1,571 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>Hello Word!</title>
+    <url>//0/2025/00-hello-world/</url>
+    <content><![CDATA[<p>A Test Post without the Header Image.</p>
+<span id="more"></span>
+<h2 id="paragraphs">Paragraphs</h2>
+<h3 id="中文">中文</h3>
+<p>但是太阳，它每时每刻都是夕阳也都是旭日。当它熄灭着走下山去收尽苍凉残照之际，正是它在另一面燃烧着爬上山巅布散烈烈朝辉之时。那一天，我也将沉静着走下山去，扶着我的拐杖。有一天，在某一处山洼里，势必会跑上来一个欢蹦的孩子，抱着他的玩具。
+当然，那不是我。 但是，那不是我吗？
+宇宙以其不息的欲望将一个歌舞炼为永恒。这欲望有怎样一个人间的姓名，大可忽略不计。</p>
+<h3 id="english">English</h3>
+<p>It’s been said that astronomy is a humbling, and character-building
+experience. There is perhaps no better demonstration of the folly of
+human conceits than this distant image. To me, it underscores our
+responsibility to deal more kindly with one another and to preserve and
+cherish the pale blue dot, the only home we’ve ever known.</p>
+<p>——  Carl Sagan, in Cosmos: A Spacetime Odyssey (S01E13) Unafraid of
+the Dark</p>
+<h3 id="日本語">日本語</h3>
+<p>広い門の下には、この男のほかに誰もいない。ただ、所々丹塗(にぬり)の剥(は)げた、大きな円柱(まるばしら)に、蟋蟀(きりぎりす)が一匹とまっている。羅生門が、朱雀大路(すざくおおじ)にある以上は、この男のほかにも、雨やみをする市女笠(いちめがさ)や揉烏帽子(もみえぼし)が、もう二三人はありそうなものである。それが、この男のほかには誰もいない。</p>
+<h3 id="繁體字">繁體字</h3>
+<p>憂鬱的臺灣烏龜。</p>
+<h2 id="h2-heading">H2 Heading</h2>
+<h3 id="h3-heading">H3 Heading</h3>
+<h4 id="h4-heading">H4 Heading</h4>
+<h5 id="h5-heading">H5 Heading</h5>
+<h6 id="h6-heading">H6 Heading</h6>
+<h2 id="code">Code</h2>
+<h3 id="code-blocks">Code Blocks</h3>
+<p>Click the green button on the upper-left corner to make the code
+block full screen.</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> food</span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">Dragon</span>:</span><br><span class="line">  <span class="keyword">def</span> <span class="title function_">__init__</span>(<span class="params">self, happiness</span>):</span><br><span class="line">    <span class="variable language_">self</span>.happiness = happiness</span><br><span class="line">  <span class="keyword">def</span> <span class="title function_">code</span>(<span class="params">self</span>):</span><br><span class="line">    <span class="string">&quot;&quot;&quot; just code &quot;&quot;&quot;</span></span><br><span class="line">    <span class="variable language_">self</span>.happiness -= <span class="number">60</span></span><br><span class="line">  <span class="keyword">def</span> <span class="title function_">eat</span>(<span class="params">self, n</span>)</span><br><span class="line">    <span class="comment"># just eat</span></span><br><span class="line">    <span class="variable language_">self</span>.happiness += n * food.size</span><br><span class="line"></span><br><span class="line">me = Dragon(<span class="number">100</span>)</span><br><span class="line"></span><br><span class="line"><span class="keyword">while</span> <span class="literal">True</span>:</span><br><span class="line">  me.code()</span><br><span class="line">  me.eat(<span class="number">10</span>)</span><br></pre></td></tr></table></figure>
+<h3 id="inline-code">Inline Code</h3>
+<p><code>const a = 1</code></p>
+<h2 id="table">Table</h2>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Info</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Jerry Su</td>
+<td>A cute dog.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="images">Images</h2>
+<figure>
+<img
+src="https://v2-vuepress-theme-gungnir.vercel.app/img/home-bg/3.jpg"
+alt="Image Example" />
+<figcaption aria-hidden="true">Image Example</figcaption>
+</figure>
+<h2 id="graph">Graph</h2>
+<pre>
+<code class="mermaid">
+graph TD
+A[Hard] --&gt;|Text| B(Round)
+B --&gt; C{Decision}
+C --&gt;|One| D[Result 1]
+C --&gt;|Two| E[Result 2]
+</code>
+</pre>
+<pre>
+<code class="mermaid">
+sequenceDiagram
+Alice-&gt;&gt;John: Hello John, how are you?
+loop Healthcheck
+    John-&gt;&gt;John: Fight against hypochondria
+end
+Note right of John: Rational thoughts!
+John--&gt;&gt;Alice: Great!
+John-&gt;&gt;Bob: How about you?
+Bob--&gt;&gt;John: Jolly good!
+</code>
+</pre>
+<pre>
+<code class="mermaid">
+gantt
+dateFormat  YYYY-MM-DD
+section Section
+Completed :done,    des1, 2014-01-06,2014-01-08
+Active        :active,  des2, 2014-01-07, 3d
+Parallel 1   :         des3, after des1, 1d
+Parallel 2   :         des4, after des1, 1d
+Parallel 3   :         des5, after des3, 1d
+Parallel 4   :         des6, after des4, 1d
+</code>
+</pre>
+<pre>
+<code class="mermaid">
+classDiagram
+Class01 &lt;|-- AveryLongClass : Cool
+&lt;&lt;interface&gt;&gt; Class01
+Class09 --&gt; C2 : Where am i?
+Class09 --* C3
+Class09 --|&gt; Class07
+Class07 : equals()
+Class07 : Object[] elementData
+Class01 : size()
+Class01 : int chimp
+Class01 : int gorilla
+class Class10 {
+  &lt;&lt;service&gt;&gt;
+  int id
+  size()
+}
+</code>
+</pre>
+<pre>
+<code class="mermaid">
+stateDiagram
+[*] --&gt; Still
+Still --&gt; [*]
+Still --&gt; Moving
+Moving --&gt; Still
+Moving --&gt; Crash
+Crash --&gt; [*]
+</code>
+</pre>
+<pre>
+<code class="mermaid">
+pie
+&quot;Dogs&quot; : 386
+&quot;Cats&quot; : 85
+&quot;Rats&quot; : 15
+</code>
+</pre>
+<h2 id="maths">Maths</h2>
+<h3 id="inline-math">Inline Math</h3>
+<p>This is an inline math formula: <span class="math inline">\(E =
+mc^2\)</span></p>
+<h3 id="block-math">Block Math</h3>
+<p>Here’s a block math formula:</p>
+<p><span class="math display">\[
+\begin{align}
+\frac{\partial f}{\partial x} &amp;= 2x \\
+\frac{\partial f}{\partial y} &amp;= 2y
+\end{align}
+\]</span></p>
+<h3 id="matrix">Matrix</h3>
+<p><span class="math display">\[
+\begin{bmatrix}
+a &amp; b \newline
+c &amp; d
+\end{bmatrix}
+\]</span></p>
+<h3 id="integral">Integral</h3>
+<p><span class="math display">\[
+\int_{a}^{b} f(x) dx = F(b) - F(a)
+\]</span></p>
+<h3 id="sum">Sum</h3>
+<p><span class="math display">\[
+\sum_{i=1}^{n} i = \frac{n(n+1)}{2}
+\]</span></p>
+<h3 id="complex-formula">Complex Formula</h3>
+<p><span class="math display">\[
+\begin{equation}
+\begin{split}
+\frac{\partial^2 f}{\partial x^2} + \frac{\partial^2 f}{\partial y^2}
+&amp;= 0 \\
+\nabla^2 f &amp;= 0
+\end{split}
+\end{equation}
+\]</span></p>
+<h3 id="chemical-equation-requires-mhchem">Chemical Equation (requires
+mhchem)</h3>
+<p><span class="math display">\[
+\ce{2H2 + O2 -&gt; 2H2O}
+\]</span></p>
+<h3 id="aligned-equations">Aligned Equations</h3>
+<p><span class="math display">\[
+\begin{align}
+(a+b)^2 &amp;= (a+b)(a+b) \\
+&amp;= a^2 + ab + ba + b^2 \\
+&amp;= a^2 + 2ab + b^2
+\end{align}
+\]</span></p>
+<h3 id="cases">Cases</h3>
+<p><span class="math display">\[
+f(x) = \begin{cases}
+x^2, &amp; \text{if } x &gt; 0 \\
+-x^2, &amp; \text{if } x \leq 0
+\end{cases}
+\]</span></p>
+<h2 id="bootstrap-callout">Bootstrap Callout</h2>
+<div class="note "><h4 id="header">Header</h4>
+<p>(without define class style)</p>
+</div>
+<div class="note default"><h4 id="default-header">Default Header</h4>
+<p>Welcome to <a href="https://hexo.io">Hexo!</a></p>
+</div>
+<div class="note primary"><h4 id="primary-header">Primary Header</h4>
+<p><strong>Welcome</strong> to <a href="https://hexo.io">Hexo!</a></p>
+</div>
+<div class="note info"><h4 id="info-header">Info Header</h4>
+<p><strong>Welcome</strong> to <a href="https://hexo.io">Hexo!</a></p>
+</div>
+<div class="note success"><h4 id="success-header">Success Header</h4>
+<p><strong>Welcome</strong> to <a href="https://hexo.io">Hexo!</a></p>
+</div>
+<div class="note warning"><h4 id="warning-header">Warning Header</h4>
+<p><strong>Welcome</strong> to <a href="https://hexo.io">Hexo!</a></p>
+</div>
+<div class="note danger"><h4 id="danger-header">Danger Header</h4>
+<p><strong>Welcome</strong> to <a href="https://hexo.io">Hexo!</a></p>
+</div>
+<div class="note info no-icon"><h4 id="no-icon-note">No icon note</h4>
+<p>Note <strong>without</strong> icon:
+<code>note info no-icon</code></p>
+</div>
+<details class="note success"><summary><p><strong>Solution</strong></p>
+</summary>
+<h4 id="details-and-summary">Details and summary</h4>
+<p>Note with summary: <code>note primary This is a summary</code></p>
+
+</details>
+<details class="note info no-icon"><summary><p>This is a summary</p>
+</summary>
+<h4 id="details-and-summary-no-icon">Details and summary (No icon)</h4>
+<p>Note with summary:
+<code>note info no-icon This is a summary</code></p>
+
+</details>
+<div class="tabs" id="tab"><ul class="nav-tabs"><li class="tab active"><a href="#tab-1">tab 1</a></li><li class="tab"><a href="#tab-2">tab 2</a></li><li class="tab"><a href="#tab-3">A</a></li></ul><div class="tab-content"><div class="tab-pane active" id="tab-1"><p><strong>选项卡 1</strong></p></div><div class="tab-pane" id="tab-2"><p><strong>选项卡 2</strong></p></div><div class="tab-pane" id="tab-3"><p><strong>选项卡 3</strong> 名字为A</p></div></div></div>
+<p>basic footnote<a href="#fn1" class="footnote-ref" id="fnref1"
+role="doc-noteref"><sup>1</sup></a> here is an inline
+footnote[^2](inline footnote) and another one<a href="#fn2"
+class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a> and
+another one<a href="#fn3" class="footnote-ref" id="fnref3"
+role="doc-noteref"><sup>3</sup></a></p>
+<!-- HTML方式: 直接在 Markdown 文件中编写 HTML 来调用 -->
+<!-- 其中 class="blockquote-center" 是必须的 -->
+<blockquote class="blockquote-center">
+blah blah blah
+</blockquote>
+<!-- 标签 方式，要求版本在0.4.5或以上 -->
+<blockquote class="blockquote-center">
+<p>blah blah blah</p>
+
+</blockquote>
+<!-- 标签别名 -->
+<blockquote class="blockquote-center">
+<p>blah blah blah</p>
+
+</blockquote>
+<section id="footnotes" class="footnotes footnotes-end-of-document"
+role="doc-endnotes">
+<hr />
+<ol>
+<li id="fn1"><p>basic footnote content<a href="#fnref1"
+class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>paragraph footnote content<a href="#fnref2"
+class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3"><p>footnote content with some <a
+href="https://en.wikipedia.org/wiki/Markdown">markdown</a><a
+href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section>
+]]></content>
+  </entry>
+  <entry>
+    <title>Intro to Concrete Math</title>
+    <url>//1/2025/01-concrete-math-intro/</url>
+    <content><![CDATA[<p>Beginning of my notes on studying concrete math.</p>
+<span id="more"></span>
+]]></content>
+      <tags>
+        <tag>math</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Concrete Math Chap 1-Reconcurrent Problems</title>
+    <url>//2/2025/02-concrete-math-I/</url>
+    <content><![CDATA[
+]]></content>
+      <tags>
+        <tag>math</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Concrete Math Chap2</title>
+    <url>//3/2025/03-concrete-math-II/</url>
+    <content><![CDATA[
+]]></content>
+      <tags>
+        <tag>math</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>concrete math IV</title>
+    <url>//5/2025/05-concrete-math-IV/</url>
+    <content><![CDATA[
+]]></content>
+      <tags>
+        <tag>math</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>concrete math III</title>
+    <url>//4/2025/04-concrete-math-III/</url>
+    <content><![CDATA[
+]]></content>
+      <tags>
+        <tag>math</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Concrete Math Chap 5 - Binomial Coefficients</title>
+    <url>//6/2025/06-concrete-math-V/</url>
+    <content><![CDATA[<p>111</p>
+<span id="more"></span>
+<h2 id="formulas-and-tricks">Formulas and Tricks</h2>
+<p><span class="math display">\[
+\begin{align}
+\binom{n}{k} &amp;= \frac{n!}{k!(n-k)!}, \quad \text{integers } n \ge k
+\ge 0. \quad \text{factorial expansion} \\
+\binom{n}{k} &amp;= \binom{n}{n-k}, \quad \text{integer } n \ge 0,
+\text{ integer } k. \quad \text{symmetry} \\
+\binom{r}{k} &amp;= \frac{r}{k}\binom{r-1}{k-1}, \quad \text{integer } k
+\ne 0. \quad \text{absorption/extraction} \\
+\binom{r}{k} &amp;= \binom{r-1}{k} + \binom{r-1}{k-1}, \quad
+\text{integer } k. \quad \text{addition/induction} \\
+\binom{r}{k} &amp;= (-1)^k \binom{k-r-1}{k}, \quad \text{integer } k.
+\quad \text{upper negation} \\
+\binom{r}{m}\binom{m}{k} &amp;= \binom{r}{k}\binom{r-k}{m-k}, \quad
+\text{integers } m, k. \quad \text{trinomial revision} \\
+\sum_k \binom{r}{k} x^k y^{r-k} &amp;= (x+y)^r, \quad \text{integer } r
+\ge 0, \text{ or } |x/y| &lt; 1. \quad \text{binomial theorem} \\
+\sum_{k \le n} \binom{r+k}{k} &amp;= \binom{r+n+1}{n}, \quad
+\text{integer } n. \quad \text{parallel summation} \\
+\sum_{0 \le k \le n} \binom{k}{m} &amp;= \binom{n+1}{m+1}, \quad
+\text{integers } m, n \ge 0. \quad \text{upper summation} \\
+\sum_k \binom{r}{k} \binom{s}{n-k} &amp;= \binom{r+s}{n}, \quad
+\text{integer } n. \quad \text{Vandermonde convolution}
+\end{align}
+\]</span></p>
+<h2 id="exercise">Exercise</h2>
+<ol type="1">
+<li><p>Express the function <span class="math inline">\(G(z)\)</span> in
+the formula <span class="math display">\[
+F \left( \begin{matrix} a_1, \dots, a_m \\ b_1, \dots, b_n \end{matrix}
+\middle| z \right) = 1 + G(z)
+\]</span> as a multiple of a hypergeometric series.
+<details class="note success"><summary><p>This is a summary</p>
+</summary>
+<h3 id="solution">Solution</h3>
+<p>asdsa</p>
+
+</details></p></li>
+<li><p>Prove that <span class="math display">\[
+F \left( \begin{matrix} a_1, a_1 + \frac{1}{2}, \dots, a_m, a_m +
+\frac{1}{2} \\ b_1, b_1 + \frac{1}{2}, \dots, b_n, b_n + \frac{1}{2}
+\end{matrix} \middle| (2^{m-n-1}z)^2 \right) = \frac{1}{2} \left( F
+\left( \begin{matrix} 2a_1, \dots, 2a_m \\ 2b_1, \dots, 2b_n
+\end{matrix} \middle| z \right) + F \left( \begin{matrix} 2a_1, \dots,
+2a_m \\ 2b_1, \dots, 2b_n \end{matrix} \middle| -z \right) \right).
+\]</span></p></li>
+<li><p>Prove <em>Euler’s identity</em> <span class="math display">\[
+F \left( \begin{matrix} a, b \\ c \end{matrix} \middle| z \right) =
+(1-z)^{c-a-b} F \left( \begin{matrix} c-a, c-b \\ c \end{matrix}
+\middle| z \right)
+\]</span> by applying Pfaff’s reflection law (5.101) twice.</p></li>
+</ol>
+]]></content>
+      <tags>
+        <tag>math</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>concrete math VI</title>
+    <url>//7/2025/07-concrete-math-VI/</url>
+    <content><![CDATA[
+]]></content>
+      <tags>
+        <tag>math</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>08 guiding for hexo blog</title>
+    <url>//undefined/2025/08-guiding-for-hexo-blog/</url>
+    <content><![CDATA[
+]]></content>
+  </entry>
+  <entry>
+    <title>Tutorial for javascript30</title>
+    <url>//9/2025/09-tutorial-for-js-30/</url>
+    <content><![CDATA[<p>A simple tutorial for javascript 30. <span id="more"></span></p>
+<h2 id="day1">Day1</h2>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="keyword">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span> <span class="attr">lang</span>=<span class="string">&quot;en&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">&quot;UTF-8&quot;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">title</span>&gt;</span>JS Drum Kit<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">link</span> <span class="attr">rel</span>=<span class="string">&quot;stylesheet&quot;</span> <span class="attr">href</span>=<span class="string">&quot;style.css&quot;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">link</span> <span class="attr">rel</span>=<span class="string">&quot;icon&quot;</span> <span class="attr">href</span>=<span class="string">&quot;https://fav.farm/✅&quot;</span> /&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;keys&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">data-key</span>=<span class="string">&quot;65&quot;</span> <span class="attr">class</span>=<span class="string">&quot;key&quot;</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">kbd</span>&gt;</span>A<span class="tag">&lt;/<span class="name">kbd</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">&quot;sound&quot;</span>&gt;</span>clap<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">data-key</span>=<span class="string">&quot;83&quot;</span> <span class="attr">class</span>=<span class="string">&quot;key&quot;</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">kbd</span>&gt;</span>S<span class="tag">&lt;/<span class="name">kbd</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">&quot;sound&quot;</span>&gt;</span>hihat<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">data-key</span>=<span class="string">&quot;68&quot;</span> <span class="attr">class</span>=<span class="string">&quot;key&quot;</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">kbd</span>&gt;</span>D<span class="tag">&lt;/<span class="name">kbd</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">&quot;sound&quot;</span>&gt;</span>kick<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">data-key</span>=<span class="string">&quot;70&quot;</span> <span class="attr">class</span>=<span class="string">&quot;key&quot;</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">kbd</span>&gt;</span>F<span class="tag">&lt;/<span class="name">kbd</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">&quot;sound&quot;</span>&gt;</span>openhat<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">data-key</span>=<span class="string">&quot;71&quot;</span> <span class="attr">class</span>=<span class="string">&quot;key&quot;</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">kbd</span>&gt;</span>G<span class="tag">&lt;/<span class="name">kbd</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">&quot;sound&quot;</span>&gt;</span>boom<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">data-key</span>=<span class="string">&quot;72&quot;</span> <span class="attr">class</span>=<span class="string">&quot;key&quot;</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">kbd</span>&gt;</span>H<span class="tag">&lt;/<span class="name">kbd</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">&quot;sound&quot;</span>&gt;</span>ride<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">data-key</span>=<span class="string">&quot;74&quot;</span> <span class="attr">class</span>=<span class="string">&quot;key&quot;</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">kbd</span>&gt;</span>J<span class="tag">&lt;/<span class="name">kbd</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">&quot;sound&quot;</span>&gt;</span>snare<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">data-key</span>=<span class="string">&quot;75&quot;</span> <span class="attr">class</span>=<span class="string">&quot;key&quot;</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">kbd</span>&gt;</span>K<span class="tag">&lt;/<span class="name">kbd</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">&quot;sound&quot;</span>&gt;</span>tom<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">data-key</span>=<span class="string">&quot;76&quot;</span> <span class="attr">class</span>=<span class="string">&quot;key&quot;</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">kbd</span>&gt;</span>L<span class="tag">&lt;/<span class="name">kbd</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">&quot;sound&quot;</span>&gt;</span>tink<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"></span><br><span class="line">  <span class="tag">&lt;<span class="name">audio</span> <span class="attr">data-key</span>=<span class="string">&quot;65&quot;</span> <span class="attr">src</span>=<span class="string">&quot;sounds/clap.wav&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">audio</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">audio</span> <span class="attr">data-key</span>=<span class="string">&quot;83&quot;</span> <span class="attr">src</span>=<span class="string">&quot;sounds/hihat.wav&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">audio</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">audio</span> <span class="attr">data-key</span>=<span class="string">&quot;68&quot;</span> <span class="attr">src</span>=<span class="string">&quot;sounds/kick.wav&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">audio</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">audio</span> <span class="attr">data-key</span>=<span class="string">&quot;70&quot;</span> <span class="attr">src</span>=<span class="string">&quot;sounds/openhat.wav&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">audio</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">audio</span> <span class="attr">data-key</span>=<span class="string">&quot;71&quot;</span> <span class="attr">src</span>=<span class="string">&quot;sounds/boom.wav&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">audio</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">audio</span> <span class="attr">data-key</span>=<span class="string">&quot;72&quot;</span> <span class="attr">src</span>=<span class="string">&quot;sounds/ride.wav&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">audio</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">audio</span> <span class="attr">data-key</span>=<span class="string">&quot;74&quot;</span> <span class="attr">src</span>=<span class="string">&quot;sounds/snare.wav&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">audio</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">audio</span> <span class="attr">data-key</span>=<span class="string">&quot;75&quot;</span> <span class="attr">src</span>=<span class="string">&quot;sounds/tom.wav&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">audio</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">audio</span> <span class="attr">data-key</span>=<span class="string">&quot;76&quot;</span> <span class="attr">src</span>=<span class="string">&quot;sounds/tink.wav&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">audio</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript">  <span class="keyword">function</span> <span class="title function_">removeTransition</span>(<span class="params">e</span>) &#123;</span></span><br><span class="line"><span class="language-javascript">    <span class="keyword">if</span> (e.<span class="property">propertyName</span> !== <span class="string">&#x27;transform&#x27;</span>) <span class="keyword">return</span>;</span></span><br><span class="line"><span class="language-javascript">    e.<span class="property">target</span>.<span class="property">classList</span>.<span class="title function_">remove</span>(<span class="string">&#x27;playing&#x27;</span>);</span></span><br><span class="line"><span class="language-javascript">  &#125;</span></span><br><span class="line"><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript">  <span class="keyword">function</span> <span class="title function_">playSound</span>(<span class="params">e</span>) &#123;</span></span><br><span class="line"><span class="language-javascript">    <span class="keyword">const</span> audio = <span class="variable language_">document</span>.<span class="title function_">querySelector</span>(<span class="string">`audio[data-key=&quot;<span class="subst">$&#123;e.keyCode&#125;</span>&quot;]`</span>);</span></span><br><span class="line"><span class="language-javascript">    <span class="keyword">const</span> key = <span class="variable language_">document</span>.<span class="title function_">querySelector</span>(<span class="string">`div[data-key=&quot;<span class="subst">$&#123;e.keyCode&#125;</span>&quot;]`</span>);</span></span><br><span class="line"><span class="language-javascript">    <span class="keyword">if</span> (!audio) <span class="keyword">return</span>;</span></span><br><span class="line"><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript">    key.<span class="property">classList</span>.<span class="title function_">add</span>(<span class="string">&#x27;playing&#x27;</span>);</span></span><br><span class="line"><span class="language-javascript">    audio.<span class="property">currentTime</span> = <span class="number">0</span>;</span></span><br><span class="line"><span class="language-javascript">    audio.<span class="title function_">play</span>();</span></span><br><span class="line"><span class="language-javascript">  &#125;</span></span><br><span class="line"><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript">  <span class="keyword">const</span> keys = <span class="title class_">Array</span>.<span class="title function_">from</span>(<span class="variable language_">document</span>.<span class="title function_">querySelectorAll</span>(<span class="string">&#x27;.key&#x27;</span>));</span></span><br><span class="line"><span class="language-javascript">  keys.<span class="title function_">forEach</span>(<span class="function"><span class="params">a</span> =&gt;</span> a.<span class="title function_">addEventListener</span>(<span class="string">&#x27;transitionend&#x27;</span>, removeTransition));</span></span><br><span class="line"><span class="language-javascript">  <span class="variable language_">window</span>.<span class="title function_">addEventListener</span>(<span class="string">&#x27;keydown&#x27;</span>, playSound);</span></span><br><span class="line"><span class="language-javascript"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
+]]></content>
+  </entry>
+  <entry>
+    <title>MIT integration Bee</title>
+    <url>//10/2025/10-MIT-integration-bee/</url>
+    <content><![CDATA[<p>Brain training.</p>
+<span id="more"></span>
+<h2 id="qualifier-test">Qualifier Test</h2>
+<h3 id="section">2010</h3>
+<ol type="1">
+<li><p><span class="math display">\[
+\int_0^{\pi/2} \sin (x) \sin (2x) \sin (3x) dx
+\]</span> <details class="note success"><summary><p><strong>Solution</strong></p>
+</summary>
+<h4 id="details-and-summary">Details and summary</h4>
+<p>Note with summary: <code>note primary This is a summary</code></p>
+
+</details></p></li>
+<li><p><span class="math display">\[
+\int_0^{\pi/2} \sin^3(2x) \cos(x) dx
+\]</span></p></li>
+<li><p><span class="math display">\[
+\int (x+1)^2 (x-1)^{1/3} dx
+\]</span></p></li>
+<li><p><span class="math display">\[
+\int x \log \left(1 + \frac{1}{x}\right) dx
+\]</span></p></li>
+<li><p><span class="math display">\[
+\int_0^1 \sin^2(\log x) dx
+\]</span></p></li>
+<li><p><span class="math display">\[
+\int \frac{1}{1 + 3 e^x} dx
+\]</span></p></li>
+<li><p><span class="math display">\[
+\int_{\pi/4}^{\pi/3} \frac{dx}{\sin^3(x) \cos^5(x)}dx
+\]</span></p></li>
+<li><p><span class="math display">\[
+\int_1^\infty \frac{dx}{x \sqrt{x^4 - 1}}dx
+\]</span></p></li>
+<li><p><span class="math display">\[
+\int \frac{dx}{x(x^5 + 1)}dx
+\]</span></p></li>
+<li><p><span class="math display">\[
+\int_0^{\pi/4} \sqrt{\tan(x)} dx
+\]</span></p></li>
+<li><p><span class="math display">\[
+\int_0^1 \frac{\log(1 + x)}{1 + x^2} dx
+\]</span></p></li>
+<li><p><span class="math display">\[
+\int_{64}^{729} \frac{x^{1/2}}{x^{1/2} - x^{1/3}} dx
+\]</span></p></li>
+<li><p><span class="math display">\[
+\int x^x (1 + \log x) dx
+\]</span></p></li>
+<li><p><span class="math display">\[
+\int_0^1 x^{13/2} \sqrt{1 + x^{5/2}} dx
+\]</span></p></li>
+<li><p><span class="math display">\[
+\int_1^\infty \frac{dx}{(x^2 + 1)^2}dx
+\]</span></p></li>
+<li><p><span class="math display">\[
+\int_0^1 \frac{dx}{x^4 - 13 x^2 + 36}dx
+\]</span></p></li>
+<li><p><span class="math display">\[
+\int \frac{\log(\log x)}{x} dx
+\]</span></p></li>
+<li><p><span class="math display">\[
+\int \frac{1 + \cot x}{1 - \cot x} dx
+\]</span></p></li>
+<li><p><span class="math display">\[
+\int \frac{\cos(x) + x \sin(x)}{x (x + \cos x)} dx
+\]</span></p></li>
+<li><p><span class="math display">\[
+\int_0^{\pi/2} \frac{dx}{\sin(x) + \sec(x)}dx
+\]</span></p></li>
+<li><p><span class="math display">\[
+\int_0^\infty \frac{dx}{\sqrt{1 + e^x + e^{2x}}}dx
+\]</span></p></li>
+<li><p><span class="math display">\[
+\int_0^1 x^3 e^{x^2} dx
+\]</span></p></li>
+<li><p><span class="math display">\[
+\int_0^1 \sqrt{1 + x \sqrt{1 + x \sqrt{1 + x \sqrt{\cdots}}}} dx
+\]</span></p></li>
+<li><p><span class="math display">\[
+\int \left( \frac{1}{\log x} - \frac{1}{(\log x)^2} \right) dx
+\]</span></p></li>
+<li><p><span class="math display">\[
+\int_1^2 (x-1)^{1/2} (2 - x)^{1/2} dx
+\]</span></p></li>
+</ol>
+<h3 id="section-1">2013</h3>
+<ol type="1">
+<li><p><span class="math display">\[
+\int \log(x^2) - 2 \log(2x) dx
+\]</span></p></li>
+<li><p><span class="math display">\[
+\int_{-1}^3 e^{|x|} dx
+\]</span></p></li>
+<li><p><span class="math display">\[
+\int \frac{(\log x)(\cos x) - (\sin x)(1/x)}{(\log x)^2} dx
+\]</span></p></li>
+<li><p><span class="math display">\[
+\int_1^{11} x^3 - 3x^2 + 3x - 1 dx
+\]</span></p></li>
+<li><p><span class="math display">\[
+\int_0^2 \sqrt{12 - 3x^2} dx
+\]</span></p></li>
+<li><p><span class="math display">\[
+\int_0^6 x + (x - 3)^7 + \sin(x - 3) dx
+\]</span></p></li>
+<li><p><span class="math display">\[
+\int \sin x \sqrt{1 + \tan^2 x} dx
+\]</span></p></li>
+<li><p><span class="math display">\[
+\int \frac{x^5 - x^3 + x^2 - 1}{x^4 - x^3 + x - 1} dx
+\]</span></p></li>
+<li><p><span class="math display">\[
+\int_0^1 \log x dx
+\]</span></p></li>
+<li><p><span class="math display">\[
+\int \frac{1}{1 - e^{-x}} dx
+\]</span></p></li>
+<li><p><span class="math display">\[
+\int_0^\pi \sin^2 x \cos^2 x dx
+\]</span></p></li>
+<li><p><span class="math display">\[
+\int_0^{441} \frac{\pi \sin(\pi \sqrt{x})}{\sqrt{x}} dx
+\]</span></p></li>
+<li><p><span class="math display">\[
+\int \tan^2 x dx
+\]</span></p></li>
+<li><p><span class="math display">\[
+\int_0^{256} (x - \lfloor x \rfloor)^2 dx
+\]</span></p></li>
+<li><p><span class="math display">\[
+\int e^{\frac{4}{\sqrt{x}}} dx
+\]</span></p></li>
+<li><p><span class="math display">\[
+\int \cos x \cot x dx
+\]</span></p></li>
+<li><p><span class="math display">\[
+\int 2 \log x + (\log x)^2 dx
+\]</span></p></li>
+<li><p><span class="math display">\[
+\int \frac{x^3}{1 + x^2} dx
+\]</span></p></li>
+<li><p><span class="math display">\[
+\int \frac{1}{2 - 2x + x^2} dx
+\]</span></p></li>
+<li><p><span class="math display">\[
+\int \sin x \log(\sin x) dx
+\]</span></p></li>
+<li><p><span class="math display">\[
+\int \frac{x}{1 - x^4} dx
+\]</span></p></li>
+<li><p><span class="math display">\[
+\int \sqrt{12 - 3x^2} dx
+\]</span></p></li>
+<li><p><span class="math display">\[
+\int \sec^5 x \tan^3 x dx
+\]</span></p></li>
+<li><p><span class="math display">\[
+\int_{-\pi/4}^{\pi/4} \frac{1}{1 - \sin x} dx
+\]</span></p></li>
+<li><p><span class="math display">\[
+\int \frac{1}{x \sqrt{x^2 - 2}} dx
+\]</span></p></li>
+</ol>
+<h2 id="integration-bees">Integration Bees</h2>
+]]></content>
+      <tags>
+        <tag>math</tag>
+      </tags>
+  </entry>
+</search>

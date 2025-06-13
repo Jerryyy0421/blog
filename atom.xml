@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Jerry の Blog</title>
+  
+  <subtitle>too young too simple sometimes naive</subtitle>
+  <link href="https://jerrysu.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://jerrysu.github.io/"/>
+  <updated>2025-06-10T07:21:22.247Z</updated>
+  <id>https://jerrysu.github.io/</id>
+  
+  <author>
+    <name>Jerry Su</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello Word!</title>
+    <link href="https://jerrysu.github.io/0/2025/00-hello-world/"/>
+    <id>https://jerrysu.github.io/0/2025/00-hello-world/</id>
+    <published>2025-06-10T04:32:16.036Z</published>
+    <updated>2025-06-10T07:21:22.247Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;A Test Post without the Header Image.&lt;/p&gt;</summary>
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>MIT integration Bee</title>
+    <link href="https://jerrysu.github.io/10/2025/10-MIT-integration-bee/"/>
+    <id>https://jerrysu.github.io/10/2025/10-MIT-integration-bee/</id>
+    <published>2025-06-07T10:52:00.000Z</published>
+    <updated>2025-06-10T05:44:05.869Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;Brain training.&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="math" scheme="https://jerrysu.github.io/tags/math/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Tutorial for javascript30</title>
+    <link href="https://jerrysu.github.io/9/2025/09-tutorial-for-js-30/"/>
+    <id>https://jerrysu.github.io/9/2025/09-tutorial-for-js-30/</id>
+    <published>2025-06-05T11:02:34.000Z</published>
+    <updated>2025-06-05T11:05:03.361Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;A simple tutorial for javascript 30.</summary>
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>08 guiding for hexo blog</title>
+    <link href="https://jerrysu.github.io/undefined/2025/08-guiding-for-hexo-blog/"/>
+    <id>https://jerrysu.github.io/undefined/2025/08-guiding-for-hexo-blog/</id>
+    <published>2025-06-05T07:49:07.000Z</published>
+    <updated>2025-06-05T11:04:08.015Z</updated>
+    
+    
+      
+      
+    <summary type="html">
+</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>concrete math VI</title>
+    <link href="https://jerrysu.github.io/7/2025/07-concrete-math-VI/"/>
+    <id>https://jerrysu.github.io/7/2025/07-concrete-math-VI/</id>
+    <published>2025-06-05T05:48:43.000Z</published>
+    <updated>2025-06-05T05:51:21.168Z</updated>
+    
+    
+      
+      
+    <summary type="html">
+</summary>
+      
+    
+    
+    
+    
+    <category term="math" scheme="https://jerrysu.github.io/tags/math/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Concrete Math Chap 5 - Binomial Coefficients</title>
+    <link href="https://jerrysu.github.io/6/2025/06-concrete-math-V/"/>
+    <id>https://jerrysu.github.io/6/2025/06-concrete-math-V/</id>
+    <published>2025-06-05T05:48:37.000Z</published>
+    <updated>2025-06-10T05:27:56.820Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;111&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="math" scheme="https://jerrysu.github.io/tags/math/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>concrete math IV</title>
+    <link href="https://jerrysu.github.io/5/2025/05-concrete-math-IV/"/>
+    <id>https://jerrysu.github.io/5/2025/05-concrete-math-IV/</id>
+    <published>2025-06-05T05:48:29.000Z</published>
+    <updated>2025-06-05T05:51:21.170Z</updated>
+    
+    
+      
+      
+    <summary type="html">
+</summary>
+      
+    
+    
+    
+    
+    <category term="math" scheme="https://jerrysu.github.io/tags/math/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>concrete math III</title>
+    <link href="https://jerrysu.github.io/4/2025/04-concrete-math-III/"/>
+    <id>https://jerrysu.github.io/4/2025/04-concrete-math-III/</id>
+    <published>2025-06-05T05:48:20.000Z</published>
+    <updated>2025-06-13T10:53:54.717Z</updated>
+    
+    
+      
+      
+    <summary type="html">
+</summary>
+      
+    
+    
+    
+    
+    <category term="math" scheme="https://jerrysu.github.io/tags/math/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Concrete Math Chap2</title>
+    <link href="https://jerrysu.github.io/3/2025/03-concrete-math-II/"/>
+    <id>https://jerrysu.github.io/3/2025/03-concrete-math-II/</id>
+    <published>2025-06-05T05:48:13.000Z</published>
+    <updated>2025-06-05T05:51:21.163Z</updated>
+    
+    
+      
+      
+    <summary type="html">
+</summary>
+      
+    
+    
+    
+    
+    <category term="math" scheme="https://jerrysu.github.io/tags/math/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Concrete Math Chap 1-Reconcurrent Problems</title>
+    <link href="https://jerrysu.github.io/2/2025/02-concrete-math-I/"/>
+    <id>https://jerrysu.github.io/2/2025/02-concrete-math-I/</id>
+    <published>2025-06-05T05:47:12.000Z</published>
+    <updated>2025-06-05T05:57:39.975Z</updated>
+    
+    
+      
+      
+    <summary type="html">
+</summary>
+      
+    
+    
+    
+    
+    <category term="math" scheme="https://jerrysu.github.io/tags/math/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Intro to Concrete Math</title>
+    <link href="https://jerrysu.github.io/1/2025/01-concrete-math-intro/"/>
+    <id>https://jerrysu.github.io/1/2025/01-concrete-math-intro/</id>
+    <published>2025-06-05T05:32:50.000Z</published>
+    <updated>2025-06-05T05:56:33.029Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;Beginning of my notes on studying concrete math.&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="math" scheme="https://jerrysu.github.io/tags/math/"/>
+    
+  </entry>
+  
+</feed>
