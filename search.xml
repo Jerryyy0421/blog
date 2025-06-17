@@ -1,16 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Intro to Concrete Math</title>
-    <url>/blog//2025/01-concrete-math-intro/</url>
-    <content><![CDATA[<p>Beginning of my notes on studying concrete math.</p>
-<span id="more"></span>
-]]></content>
-      <tags>
-        <tag>math</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Hello Word!</title>
     <url>/blog//2025/00-hello-world/</url>
     <content><![CDATA[<p>A Test Post without the Header Image.</p>
@@ -284,6 +274,16 @@ href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
       </tags>
   </entry>
   <entry>
+    <title>Intro to Concrete Math</title>
+    <url>/blog//2025/01-concrete-math-intro/</url>
+    <content><![CDATA[<p>Beginning of my notes on studying concrete math.</p>
+<span id="more"></span>
+]]></content>
+      <tags>
+        <tag>math</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Concrete Math Chap2</title>
     <url>/blog//2025/03-concrete-math-II/</url>
     <content><![CDATA[
@@ -295,15 +295,6 @@ href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
   <entry>
     <title>concrete math III</title>
     <url>/blog//2025/04-concrete-math-III/</url>
-    <content><![CDATA[
-]]></content>
-      <tags>
-        <tag>math</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>concrete math IV</title>
-    <url>/blog//2025/05-concrete-math-IV/</url>
     <content><![CDATA[
 ]]></content>
       <tags>
@@ -367,6 +358,24 @@ F \left( \begin{matrix} a, b \\ c \end{matrix} \middle| z \right) =
 \middle| z \right)
 \]</span> by applying Pfaff’s reflection law (5.101) twice.</p></li>
 </ol>
+]]></content>
+      <tags>
+        <tag>math</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>concrete math IV</title>
+    <url>/blog//2025/05-concrete-math-IV/</url>
+    <content><![CDATA[
+]]></content>
+      <tags>
+        <tag>math</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>concrete math VI</title>
+    <url>/blog//2025/07-concrete-math-VI/</url>
+    <content><![CDATA[
 ]]></content>
       <tags>
         <tag>math</tag>
@@ -560,12 +569,32 @@ F \left( \begin{matrix} a, b \\ c \end{matrix} \middle| z \right) =
       </tags>
   </entry>
   <entry>
-    <title>concrete math VI</title>
-    <url>/blog//2025/07-concrete-math-VI/</url>
-    <content><![CDATA[
+    <title>Linux guide</title>
+    <url>/blog//2025/11-linux-guide/</url>
+    <content><![CDATA[<p>A simple setup for Ubuntu 24.04LTS.</p>
+<span id="more"></span>
+<h2 id="useful-tools">Useful tools</h2>
+<h3 id="neovim">Neovim</h3>
+<h4 id="installation">Installation</h4>
+<blockquote>
+<p>Building from Source.<a href="#fn1" class="footnote-ref" id="fnref1"
+role="doc-noteref"><sup>1</sup></a></p>
+</blockquote>
+<p>Install Dependencies: <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> apt install ninja-build gettext libtool libtool-bin autoconf automake cmake g++ pkg-config unzip git curl doxygen -y</span><br></pre></td></tr></table></figure></p>
+<p>Clone the Neovim Repository: <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git <span class="built_in">clone</span> https://github.com/neovim/neovim.git &amp;&amp; <span class="built_in">cd</span> neovim</span><br></pre></td></tr></table></figure></p>
+<p>Build Neovim: <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">make CMAKE_BUILD_TYPE=Release</span><br></pre></td></tr></table></figure> Install Neovim: <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> make install</span><br></pre></td></tr></table></figure> Verify the
+Installation: Check the version to confirm the installation:
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">nvim --version</span><br></pre></td></tr></table></figure></p>
+<section id="footnotes" class="footnotes footnotes-end-of-document"
+role="doc-endnotes">
+<hr />
+<ol>
+<li id="fn1"><p><a
+href="https://infotechys.com/install-neovim-on-ubuntu-24-04/">Install
+Neovim on Ubuntu 24.04</a><a href="#fnref1" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section>
 ]]></content>
-      <tags>
-        <tag>math</tag>
-      </tags>
   </entry>
 </search>
