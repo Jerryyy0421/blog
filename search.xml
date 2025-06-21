@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Concrete Math Chap 1-Reconcurrent Problems</title>
+    <url>/blog//2025/02-concrete-math-I/</url>
+    <content><![CDATA[
+]]></content>
+      <tags>
+        <tag>math</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hello Word!</title>
     <url>/blog//2025/00-hello-world/</url>
     <content><![CDATA[<p>A Test Post without the Header Image.</p>
@@ -11,11 +20,11 @@
 当然，那不是我。 但是，那不是我吗？
 宇宙以其不息的欲望将一个歌舞炼为永恒。这欲望有怎样一个人间的姓名，大可忽略不计。</p>
 <h3 id="english">English</h3>
-<p>It’s been said that astronomy is a humbling, and character-building
+<p>It's been said that astronomy is a humbling, and character-building
 experience. There is perhaps no better demonstration of the folly of
 human conceits than this distant image. To me, it underscores our
 responsibility to deal more kindly with one another and to preserve and
-cherish the pale blue dot, the only home we’ve ever known.</p>
+cherish the pale blue dot, the only home we've ever known.</p>
 <p>——  Carl Sagan, in Cosmos: A Spacetime Odyssey (S01E13) Unafraid of
 the Dark</p>
 <h3 id="日本語">日本語</h3>
@@ -136,7 +145,7 @@ pie
 <p>This is an inline math formula: <span class="math inline">\(E =
 mc^2\)</span></p>
 <h3 id="block-math">Block Math</h3>
-<p>Here’s a block math formula:</p>
+<p>Here's a block math formula:</p>
 <p><span class="math display">\[
 \begin{align}
 \frac{\partial f}{\partial x} &amp;= 2x \\
@@ -265,15 +274,6 @@ href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 ]]></content>
   </entry>
   <entry>
-    <title>Concrete Math Chap 1-Reconcurrent Problems</title>
-    <url>/blog//2025/02-concrete-math-I/</url>
-    <content><![CDATA[
-]]></content>
-      <tags>
-        <tag>math</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Intro to Concrete Math</title>
     <url>/blog//2025/01-concrete-math-intro/</url>
     <content><![CDATA[<p>Beginning of my notes on studying concrete math.</p>
@@ -295,6 +295,15 @@ href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
   <entry>
     <title>concrete math III</title>
     <url>/blog//2025/04-concrete-math-III/</url>
+    <content><![CDATA[
+]]></content>
+      <tags>
+        <tag>math</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>concrete math IV</title>
+    <url>/blog//2025/05-concrete-math-IV/</url>
     <content><![CDATA[
 ]]></content>
       <tags>
@@ -352,21 +361,12 @@ F \left( \begin{matrix} a_1, a_1 + \frac{1}{2}, \dots, a_m, a_m +
 \end{matrix} \middle| z \right) + F \left( \begin{matrix} 2a_1, \dots,
 2a_m \\ 2b_1, \dots, 2b_n \end{matrix} \middle| -z \right) \right).
 \]</span></p></li>
-<li><p>Prove <em>Euler’s identity</em> <span class="math display">\[
+<li><p>Prove <em>Euler's identity</em> <span class="math display">\[
 F \left( \begin{matrix} a, b \\ c \end{matrix} \middle| z \right) =
 (1-z)^{c-a-b} F \left( \begin{matrix} c-a, c-b \\ c \end{matrix}
 \middle| z \right)
-\]</span> by applying Pfaff’s reflection law (5.101) twice.</p></li>
+\]</span> by applying Pfaff's reflection law (5.101) twice.</p></li>
 </ol>
-]]></content>
-      <tags>
-        <tag>math</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>concrete math IV</title>
-    <url>/blog//2025/05-concrete-math-IV/</url>
-    <content><![CDATA[
 ]]></content>
       <tags>
         <tag>math</tag>
@@ -382,9 +382,20 @@ F \left( \begin{matrix} a, b \\ c \end{matrix} \middle| z \right) =
       </tags>
   </entry>
   <entry>
-    <title>08 guiding for hexo blog</title>
+    <title>Elegantly Configure Hexo Blog with Next Theme</title>
     <url>/blog//2025/08-guiding-for-hexo-blog/</url>
-    <content><![CDATA[
+    <content><![CDATA[<p>The palest ink is better than the best memory.</p>
+<span id="more"></span>
+<h3 id="font-setting">Font Setting</h3>
+<p><a
+href="https://hexo-next.readthedocs.io/zh-cn/latest/next/advanced/%E5%AD%97%E4%BD%93%E8%AE%BE%E7%BD%AE/">Reference</a></p>
+<h3 id="full-width-and-half-width-punctuation-marks">Full-width and
+Half-width Punctuation Marks</h3>
+<p>This is a problem caused by the markdown renderer. You should modify
+it according to your markdown renderer. If you use the latest Next theme
+which supports MathJax, then you probably use Pandoc, so you should
+configure the Pandoc settings in <code>_config.yml</code>.</p>
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># config of hexo-renderer-pandoc</span></span><br><span class="line"><span class="attr">pandoc:</span></span><br><span class="line">  <span class="attr">args:</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">--mathjax</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">--from=markdown-smart</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">--to=html5</span></span><br></pre></td></tr></table></figure>
 ]]></content>
   </entry>
   <entry>
@@ -396,7 +407,42 @@ F \left( \begin{matrix} a, b \\ c \end{matrix} \middle| z \right) =
 ]]></content>
   </entry>
   <entry>
-    <title>MIT integration Bee</title>
+    <title>Linux Guide</title>
+    <url>/blog//2025/11-linux-guide/</url>
+    <content><![CDATA[<p>A simple setup for Ubuntu 24.04LTS.</p>
+<span id="more"></span>
+<h2 id="useful-tools">Useful tools</h2>
+<h3 id="neovim">Neovim</h3>
+<h4 id="installation">Installation</h4>
+<blockquote>
+<p>Building from Source.<a href="#fn1" class="footnote-ref" id="fnref1"
+role="doc-noteref"><sup>1</sup></a></p>
+</blockquote>
+<p>Install Dependencies: <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> apt install ninja-build gettext libtool libtool-bin autoconf automake cmake g++ pkg-config unzip git curl doxygen -y</span><br></pre></td></tr></table></figure></p>
+<p>Clone the Neovim Repository: <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git <span class="built_in">clone</span> https://github.com/neovim/neovim.git &amp;&amp; <span class="built_in">cd</span> neovim</span><br></pre></td></tr></table></figure></p>
+<p>Build Neovim: <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">make CMAKE_BUILD_TYPE=Release</span><br></pre></td></tr></table></figure> Install Neovim: <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> make install</span><br></pre></td></tr></table></figure> Verify the
+Installation: Check the version to confirm the installation:
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">nvim --version</span><br></pre></td></tr></table></figure></p>
+<h3 id="tmux">Tmux</h3>
+<p><a
+href="https://blog.yuuzi.cc/posts/notes/oh-my-tmux-record/">Reference1</a>
+<a
+href="https://github.com/dreamsofcode-io/tmux/blob/main/tmux.conf">Reference2</a>
+<a href="https://www.youtube.com/watch?v=DzNmUNvnB04">Reference3</a></p>
+<section id="footnotes" class="footnotes footnotes-end-of-document"
+role="doc-endnotes">
+<hr />
+<ol>
+<li id="fn1"><p><a
+href="https://infotechys.com/install-neovim-on-ubuntu-24-04/">Install
+Neovim on Ubuntu 24.04</a><a href="#fnref1" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section>
+]]></content>
+  </entry>
+  <entry>
+    <title>MIT Integration Bee</title>
     <url>/blog//2025/10-MIT-integration-bee/</url>
     <content><![CDATA[<p>Brain training.</p>
 <span id="more"></span>
@@ -567,34 +613,5 @@ F \left( \begin{matrix} a, b \\ c \end{matrix} \middle| z \right) =
       <tags>
         <tag>math</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>Linux guide</title>
-    <url>/blog//2025/11-linux-guide/</url>
-    <content><![CDATA[<p>A simple setup for Ubuntu 24.04LTS.</p>
-<span id="more"></span>
-<h2 id="useful-tools">Useful tools</h2>
-<h3 id="neovim">Neovim</h3>
-<h4 id="installation">Installation</h4>
-<blockquote>
-<p>Building from Source.<a href="#fn1" class="footnote-ref" id="fnref1"
-role="doc-noteref"><sup>1</sup></a></p>
-</blockquote>
-<p>Install Dependencies: <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> apt install ninja-build gettext libtool libtool-bin autoconf automake cmake g++ pkg-config unzip git curl doxygen -y</span><br></pre></td></tr></table></figure></p>
-<p>Clone the Neovim Repository: <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git <span class="built_in">clone</span> https://github.com/neovim/neovim.git &amp;&amp; <span class="built_in">cd</span> neovim</span><br></pre></td></tr></table></figure></p>
-<p>Build Neovim: <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">make CMAKE_BUILD_TYPE=Release</span><br></pre></td></tr></table></figure> Install Neovim: <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> make install</span><br></pre></td></tr></table></figure> Verify the
-Installation: Check the version to confirm the installation:
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">nvim --version</span><br></pre></td></tr></table></figure></p>
-<section id="footnotes" class="footnotes footnotes-end-of-document"
-role="doc-endnotes">
-<hr />
-<ol>
-<li id="fn1"><p><a
-href="https://infotechys.com/install-neovim-on-ubuntu-24-04/">Install
-Neovim on Ubuntu 24.04</a><a href="#fnref1" class="footnote-back"
-role="doc-backlink">↩︎</a></p></li>
-</ol>
-</section>
-]]></content>
   </entry>
 </search>
